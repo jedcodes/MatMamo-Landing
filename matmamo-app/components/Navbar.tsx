@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const Navbar = () => {
   return (
-    <nav className="maxContainer flexBetween">
+    <nav className="max-container flexBetween">
       <Link href="/">
         <Image src="/logo.png" alt="MatMomo Logo" width={170} height={200} />
       </Link>
