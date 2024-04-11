@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { poppins } from "@/assets/fonts/fonts";
+import { openSans } from "@/assets/fonts/fonts";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="no">
-      <body className={poppins.className}>
+      <body className={openSans.className}>
         <Navbar />
         <main className="relativ overflow-hidden">{children}</main>
         <Footer />
